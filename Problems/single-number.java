@@ -3,15 +3,11 @@
 
 class Solution {
     public int singleNumber(int[] nums) {
-        List<Integer> test = new ArrayList<>();
-        
-        for (int i = 0; i < nums.length; i++) {
-            if(!test.contains(nums[i])) {
-                test.add(nums[i]);
-            } else {
-                test.remove(test.size() - 1);
-            }
+        int ans = 0;
+
+        for(int i=0; i!=nums.length; i++) {
+            ans ^= nums[i];
         }
-        return test.get(0);
+        return ans;
     }
 }

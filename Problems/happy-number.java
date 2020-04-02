@@ -1,6 +1,8 @@
 // LeetCode Problem 202: Happy Number
 // Michael Nunn
 
+// If running on LeetCode you must change class name to "Solution"
+
 import java.util.*;
 
 class happyNum {

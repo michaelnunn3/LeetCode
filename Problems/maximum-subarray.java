@@ -1,4 +1,4 @@
-// LeetCode Problem 202: Happy Number
+// LeetCode Problem 53: Maximum Subarray
 // Michael Nunn
 
 // If running on LeetCode you must change class name to "Solution"
